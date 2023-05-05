@@ -26,7 +26,7 @@ namespace JMF.Model
             Console.WriteLine("");
             foreach (var produto in produtoVenda)
             {
-                produto.InfoProduto();
+                produto.InfoProdutoVenda();
             }
             Console.WriteLine("");
         }

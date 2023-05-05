@@ -29,5 +29,16 @@ namespace JMF.Model
             Console.WriteLine("");
         }
 
+                public void InfoProdutoVenda()
+        {
+            Console.WriteLine("Id do Produto: " + Id);
+            Console.WriteLine("Quantidade:" + Quantidade);
+            Console.WriteLine("Nome: " + Nome);
+            Console.WriteLine("Descrição: " + Descricao);
+            Console.WriteLine("Preço: R$" + Preco);
+            Console.WriteLine("Categoria: " + categoriaProduto.Nome);
+            Console.WriteLine("");
+        }
+
     }
 }

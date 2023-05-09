@@ -2,7 +2,7 @@ namespace JMF.Model
 {
     public class Venda
     {
-        public int Id { get; set; }
+        public int Id { get; set; }!!!// para a base de dados é interessante nomear como vendaid
         public Cliente clienteVenda { get; set; }
         public DateOnly data { get; set; }
         public List<Produto> produtoVenda { get; set; }
@@ -15,7 +15,7 @@ namespace JMF.Model
             data = dataVenda;
         }
 
-        public void InfoVenda()
+        public void InfoVenda()!!! // os model não podem conter funções, essa tarefa deveriaa estar no vendaui
         {
             Console.WriteLine("==================================");
             Console.WriteLine("Id da Venda: " + Id);

@@ -9,7 +9,7 @@ namespace JMF.Model
         public int CategoriaId { get; set; }
         public int Quantidade { get; set; }
 
-        public Categoria categoriaProduto { get; set; }
+        public Categoria categoriaProduto { get; set; }!!!//propriedade publica começa com letra maiuscula
 
         public Produto(string nome, string descricao, decimal preco, int id)
         {
